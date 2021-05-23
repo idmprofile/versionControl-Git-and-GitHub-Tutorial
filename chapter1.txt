@@ -1,1 +1,24 @@
-It was the best of times, I love you
+Version Control , Git and GitHub
+
+	Version Control
+
+		In software engineering, Version Control (also known as revision control, source control, or source code management) is a class of systems 			responsible for managing changes to computer programs, documents, large web sites, or other collections of information. Version control is a 		component of software configuration management.
+		
+		There are many list of Revision Control system such as Git,Azure and Etc
+
+			more info about Version Control : https://en.wikipedia.org/wiki/Version_control
+			List of Version Control : https://en.wikipedia.org/wiki/Comparison_of_version-control_software
+
+	
+	Git
+	
+		Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing 			source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows 				(thousands of 	parallel branches running on different systems)
+
+			more info about Git : https://en.wikipedia.org/wiki/Git
+
+
+	GitHub
+
+		GitHub, Inc. is a provider of Internet hosting for software development and version control using Git. It offers the distributed version 		control and source code management (SCM) functionality of Git, plus its own features. It provides access control and several collaboration 		features such as bug tracking, feature requests, task management, continuous integration and wikis for every project.[4] Headquartered in 		California, it has been a subsidiary of Microsoft since 2018.
+
+			more info about GitHub : https://en.wikipedia.org/wiki/GitHub
