@@ -1,1 +1,88 @@
-I will finish my Get a Job goal
+Title : Version Control Using Git and the Command Line
+
+	By analogy speaking
+	A folder in our desktop is Called Working Directory
+	A Staging Area is a  initial savepoint and a virtual Working Directory- Created by Git System
+		Stageing area : Where I have a choice not to "commit" something to push it in Local Repository.
+	A Local Repository is a final savepoint and a virtual Working directory - Created by Git System
+
+	Think about the Version Control,Git and CLI as a Quality Assurance job of a computer.
+	Think about Staging area as a prototype or sample of file,code.
+	Think about Local repo (repository) as the final output, but it can roll back to working directory/staging area
+
+				Overview : Add and Commit commands
+	Working Directory(folder) ===> (git add) ===> Staging Area ===> (git commit) ===> Local Repository
+		^^										vv
+		||										||
+		||										||
+		||										||
+		--------<<<-----------<<<------------------------------<<<------------------------
+		------------------------------git checkout ---------------------------------------
+		--------<<<-----------<<<------------------------------<<<------------------------
+
+		1. Creating a Working Directory
+		2. Adding file to "Staging Area"
+		3. Commiting file to "Local Repository"
+		4. Reverting back to
+
+
+More info about Git Commands : https://git-scm.com/docs
+
+Step 1>
+Initializing/Creating a working directory for Git
+
+1. Open CLI
+2. create folder using cli commands
+3. Go to the target folder : cli commands
+4. >type 'git init' w/o single quotes > message appear  in CLI that has been Initialized and Empty Git Repository
+5. >type 'ls -a' w/o single quotes, where 'ls - show list of files' and '-a' to show hidden files. Check if theres a 'git file'(hidden) in there
+	if theres a git files.. congrats I have working directory now.
+
+
+Step 2>
+Adding file to our working Directory and Staging Area
+
+1. Open CLI
+2. Go to the working directory
+3. >type 'touch <notepad.txt>' w/0 quotation & symbols.. touch = create, <notepad.txt> = filename.file extension
+4. >type 'ls -a' to view if the file inside the working directory
+5. >type 'git status' to check if that file has been added to the Staging area. It will show in "red colored text" if not. Green if yes.
+6. >type 'git add <filename>'. To add that file in staging area. A message will appear in "green color" or "red" if not
+7. >type 'git add .' w/o single quotes to add multiple files (optional)
+
+
+Step 3>
+Committing  file to Local Repository
+
+1. >type 'git commit -m "complete notepad.txt" ' w/o single quotes
+	where git commit - the command to add in version control
+	where -m ===> stands for message
+	where "complete notepad.txt" ===> is the message ... use present tense for convention e.g "complete"
+2. >type 'git log' to check if any commit's have been made.
+
+
+Step 4> (OPTIONAL)
+reverting back to the starting point of a file if needed
+
+1. >git checkout - revert back to previous working tree files / switch branches
+
+_____________
+Summary
+1.git add <filename.file extension> / git add . (add all) > will go to staging area
+2. git commit -m > will go to Local Repository
+
+
+git commands use in this Chapter
+
+a) git init
+b) git status
+c) git add
+d) git add .
+e) git commit -m
+f) git log
+g) git checkout
+
+More info about Git Commands : https://git-scm.com/docs
+
+
+
