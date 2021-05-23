@@ -1,3 +1,29 @@
-It will be done
-asdisajdoisaudasiodoiasudassa
-asdopskadsaas
+Title: GitHub and Remote Repositories
+Links : https://github.com/
+
+Remote Repositories are online and we use GitHub to upload our Local repository in order to be use remotely.
+
+Working Directory(folder) ===> (git add) ===> Staging Area ===> (git commit) ===> Local Repository ===> (git push) ===> Remote Repository(gitHub)
+	^^															vv
+	||															||
+	-----<<<<----------<<<<-----------<<<<--- (git pull) ---<<<<-----------<<<----<<<<<---------------------<<<<<<<-----------
+
+
+
+More info about Git Commands : https://git-scm.com/docs
+
+Step 1>
+Setting up Remote Repository and connect it on Local repository
+
+1. Create account on https://github.com/
+2. Create Repository "my repository"
+3. Copy the address of "my repository"
+4. open CLI
+5. type> git remote add origin https://github.com/idmprofile/versionControl-Git-and-GitHub-Tutorial.git (url of GitHub repository)(setting up connection to Local repository from remote)
+6. type> git push -u origin master
+
+git commands learned
+
+a) git remote add origin "repository url"
+b) git push -u origin master
+
