@@ -23,7 +23,7 @@ Title : Version Control Using Git and the Command Line
 		1. Creating a Working Directory
 		2. Adding file to "Staging Area"
 		3. Commiting file to "Local Repository"
-		4. Reverting back to
+		4. Reverting back to working tree files if all ends in not good
 
 
 More info about Git Commands : https://git-scm.com/docs
