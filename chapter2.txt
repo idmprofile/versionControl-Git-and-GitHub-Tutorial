@@ -61,10 +61,19 @@ Committing  file to Local Repository
 2. >type 'git log' to check if any commit's have been made.
 
 
-Step 4> (OPTIONAL)
-reverting back to the starting point of a file if needed
+Step 4> (optional)
+Reverting back to the starting point of a file if needed
 
-1. >git checkout - revert back to previous working tree files / switch branches
+1. type> 'git checkout' w/o single quotes - revert back to previous working tree files / switch branches
+
+
+Step 5> (optional)
+check difference between modified and original files
+
+if file has have changes and does not yet been "add" to the staging file 
+1. >type 'git status' w/o single quotes - to check what file has been modify
+2. >type 'git diff <filename.extension>' w/o single quotes - will show what changes have been made
+
 
 _____________
 Summary
@@ -76,11 +85,12 @@ git commands use in this Chapter
 
 a) git init
 b) git status
-c) git add
+c) git add <filename.extension>
 d) git add .
 e) git commit -m
 f) git log
 g) git checkout
+h) git diff <filename.extension>
 
 More info about Git Commands : https://git-scm.com/docs
 
