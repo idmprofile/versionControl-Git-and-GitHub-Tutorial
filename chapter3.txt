@@ -22,6 +22,7 @@ Setting up Remote Repository and connect it on Local repository
 5. type> git remote add origin https://github.com/idmprofile/versionControl-Git-and-GitHub-Tutorial.git (url of GitHub repository)(setting up connection to Local repository from remote)
 6. type> git push -u origin master
 
+
 git commands learned
 
 a) git remote add origin "repository url"
