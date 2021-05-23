@@ -21,6 +21,8 @@ How to use .gitignore?
 	> simply (Case sensitive) type filename.extension that needs to be ignore when committin
 
 	# - commenting in .gitignore
+
+	*.txt - all files with extension of 'txt' will be ignored
 	
 
 
