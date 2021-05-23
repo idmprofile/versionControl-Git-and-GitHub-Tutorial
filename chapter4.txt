@@ -1,1 +1,38 @@
-I will finish my goal
+Title : Git ignore
+
+git ignore - ignore files that dont want to make it public
+
+What is .gitignore?
+	> there is no command of using 'git ignore'
+	> it just a file w/o file extension and can be open using notepad.txt
+	> make a file with a name '.gitignore' w/o single quotes
+
+When to use .gitignore?
+	> probably files that does not want to commit in local/remote repository
+
+Where to put .gitignore?
+	> in working directory and it is hidden
+
+How to use .gitignore?
+	> make a file in working directory
+	> name it as '.gitignore' w/o single quotation mark
+	> hide it in working directory
+	> open .gitignore using notepad
+	> simply (Case sensitive) type filename.extension that needs to be ignore when committin
+
+	# - commenting in .gitignore
+	
+
+
+
+Step 1>
+creating a .gitignore file
+
+1. > in CLI - cd to working directory
+2. >type in CLI 'touch .gitignore' w/
+3. >type 'attrib +h .<filename>' w/o single quotes (will hide the file)
+4. >type ls -a to check if theres a file
+5. >type start .gitignore to open that file and open it in notepad
+6. > in .gitinore file open; type all files with extension  <passwords.js> that needs to ignore 
+
+
