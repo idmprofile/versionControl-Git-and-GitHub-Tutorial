@@ -1,4 +1,6 @@
-Version Control , Git and GitHub
+Introduction to Version Control , Git and GitHub
+
+Summary : We use Version Control system such Git to track files we modified and have savepoint locally using Command Line Interface(commands) and use Git Commands to use Git. GitHub is just a powerful version of Git that can host repository Online so we can use Git anywhere in the world.
 
 	Version Control
 
