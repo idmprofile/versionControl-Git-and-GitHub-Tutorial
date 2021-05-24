@@ -1,0 +1,17 @@
+Title: git branches and branching | Merging
+
+What
+Why
+When
+Where
+How
+
+sometimes we 
+develop new feautures
+fixing bugs
+
+git branch -- to check what branch you are
+git branch <branch name> -- creates new branch
+"git branch branch1"
+
+git checkout <branch name> -- switch to the particular branch
