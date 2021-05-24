@@ -1,20 +1,40 @@
 Title: git branches and branching | Merging
 
-What
-Why
-When
-Where
-How
+what is branching
+	> a practice of creating copies of programs or objects in development to work in parallel versions, retaining the original and working on the branch or making different changes to each.
 
-sometimes we 
-develop new feautures
-fixing bugs
+	Master branch ------ * ------ * ---------- commits --- merge
+			   |					/
+			Sub branch ----- * --------------------/
+			
+		
+What is git branch
+	> a command use to create a branch in master branch
 
-git branch -- to check what branch you are
-git branch <branch name> -- creates new branch
+Why do we need to branch
+	> sometimes we develop new feautures,fixing bugs and reassure quality
+
+When do we need to create branch and merge
+	> It is highly recommend to create branch within development to 	ensure quality of development.
+	> we merge it when it is ready to be merge, but a software is not 	perfect
+
+Where do we make branch
+	> Inside local repository or Remote repository under our master 	branch
+	
+How to make branch
+
+>type git branch -- to check what branch you are
+>type git branch <branch name> -- creates new branch
 "git branch branch1"
 
 git checkout <branch name> -- switch to the particular branch
 
 
-when stuck in VIM type> :q!
+how to merge
+to merge a branch into main branch (master)
+	
+	we must be in master branch to merge our sub-branch
+>type	git branch -- to check what branch
+>type 	git merge <branch name>
+
+when stuck in VIM type> :q! or q
