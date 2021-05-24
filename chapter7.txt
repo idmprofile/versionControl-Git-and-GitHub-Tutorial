@@ -1,0 +1,5 @@
+Title: Git Forking and Pull request
+
+forking is simply doing a 'copy' on "remote repository" and putting it under a particular GitHub Account.
+
+Pull request is when someones want to add,fix,delete something to the orignal copy and its either wait to approve or has full access to approve automatically from the author
