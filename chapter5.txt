@@ -1,0 +1,20 @@
+Title: git clone
+
+What is git clone
+>copies local/remote repository
+>it includes commits
+>automatically initialize working directory
+
+Where to put git clone
+>anywhere in local/remote repository
+
+Why do we need git clone
+>for work, collaboration and etc
+
+When do we need git glone
+>when we need to copy a local repository
+
+How to use git clone
+>copy the url of the repository on GitHub
+>type in CLI git clone 'url' w/o single quotation mark
+> process and downloading
