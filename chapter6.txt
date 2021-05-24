@@ -15,3 +15,6 @@ git branch <branch name> -- creates new branch
 "git branch branch1"
 
 git checkout <branch name> -- switch to the particular branch
+
+
+when stuck in VIM type> :q!

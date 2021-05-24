@@ -1,4 +1,6 @@
 Title: git clone
+commands
+git clone <url>
 
 What is git clone
 	>copies local/remote repository
