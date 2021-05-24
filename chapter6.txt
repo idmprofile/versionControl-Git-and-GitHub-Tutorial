@@ -31,7 +31,7 @@ git checkout <branch name> -- switch to the particular branch
 
 
 how to merge
-to merge a branch into main branch (master)
+to merge a branch into main branch (master) / or vice versa
 	
 	we must be in master branch to merge our sub-branch
 >type	git branch -- to check what branch
