@@ -28,3 +28,8 @@ git commands learned
 a) git remote add origin "repository url"
 b) git push -u origin master
 
+
+git push -u ---command to push in github
+origin --- name of "remote repository" just keep it as is for convention in other programmers
+master --- name of main branch in our "local repository"
+
